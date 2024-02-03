@@ -1,0 +1,27 @@
+
+1)you need to make a javaee project,then make a java class
+ 
+
+2) you need to get the dependencies or json library
+            <artifactId>yasson</artifactId>
+
+3)then create a json builder  
+	ex:-Jsonb jsonb = JsonbBuilder.create();
+
+4)then you need to convert the JSON string to a User object
+	ex:- InstanceDto instanceDto = jsonb.fromJson(req.getReader(), InstanceDto.class);
+
+5)there some exception so handle the exceptions.
+		ex:- IOException from getReader();
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+1---http://localhost:8080/scope/practice
+	practice
+
+
+
+2
